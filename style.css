@@ -1,0 +1,167 @@
+
+a {
+    text-decoration:none
+}
+body{
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.container{
+    margin-left: 140px;
+    margin-right: 195px;
+	border: 1px solid #ccc;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo{
+    justify-content: center;
+    margin-top: 22px;
+    /* background: lightcoral; */
+    border: 1px solid lightblue;
+}
+
+.container-icones{
+
+    margin-left: 140px;
+    margin-right: 195px;
+    justify-content: space-around;
+	border: 1px solid #ccc;
+    margin-top: 22px;
+    /* background-color: lightgreen; */
+
+}
+.g1{
+    color: #C3170C;
+    font-size: 19px;
+}
+.globo{
+    color: #1E4B9B;
+    font-size: 19px;
+}
+.valor{
+    color: #006766;
+    font-size: 19px;
+}
+.ge{
+    color: #07AA47;
+    font-size: 19px;
+}
+.cartola{
+    color: #E3662B;
+    font-size: 19px;
+}
+.globoplay{
+    color: #FB0735;
+    font-size: 19px;
+}
+.dropz{
+    color: #FF75BB;
+    font-size: 19px;
+}
+.gshow{
+    color: #EC7D00;
+    font-size: 19px;
+}
+.quem{
+    color: #323333;
+    font-size: 19px;
+}
+.receitas{
+    color: #A81D83;
+    font-size: 19px;
+}
+
+.container-principal{
+    border: 3px solid lightcoral;
+    justify-content: space-around;
+}
+.caixa1{
+    border: 3px solid lightgrey;
+    color: #C4160C;
+    margin-top: 34px;
+    margin-left: 151px;
+    width: 624px;
+    height: 930px;
+    
+}
+.vacinados-texto{
+    font-size: 52px;
+    width: 624px;
+    height: 201px;
+    margin-top: auto;    
+    
+}
+.ministros-texto1{
+    color: #303134;
+    font-size: 18px;
+    line-height: 22px;
+}
+.ministros-texto2{
+    color: #303134;
+    font-size: 18px;
+    line-height: 7px;
+    
+}
+
+.container-caixa1-horizontal-imagens{
+    border: 3px solid lightgrey;
+    margin-top: 51px;
+    width: 627px;
+    height: 277px;
+    justify-content: space-around;
+    
+}
+.alem-presidente{
+    /* border: 3px solid lightgrey; */
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+    margin-left: auto;
+    
+}
+.presidente-texto{
+    font-size: 14px;
+    color: #C4170C;
+    width: 193px;
+    height: 110px;
+    margin-top: 11px;
+}
+.cpi-texto{
+    font-size: 14px;
+    font-weight: bold;
+    color: #2F3134;
+    width: 192px;
+    height: 84px;
+    margin-top: auto;
+}
+.evangelicos{
+    color: #2F3134;
+    font-size: 14px;
+    width: 174px;
+    height: 42.5px;
+}
+.caixa2{
+    border: 3px solid lightgrey;
+    width: 552px;
+    height: 930px;
+    margin-top: 34px;
+    margin-right: 195px;
+}
+/* .caixas{
+    margin-left: 151px;
+    margin-right: 825px;
+} */
+/* .caixa-vacinados{
+    color: #C4160C;
+    width: 624px;
+    height: 201px;
+    margin-top: 36px;
+    font-size: 52px;
+    border: 5px solid #ccc;
+} */
+
+
+
