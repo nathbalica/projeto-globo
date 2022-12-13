@@ -31,6 +31,7 @@ body{
 	border: 3px solid #ccc;
     margin-top: 22px;
     align-items: center;
+    height: 40px;
     /* background-color: lightgreen; */
 
 }
@@ -74,9 +75,24 @@ body{
     color: #A81D83;
     font-size: 19px;
 }
+.borda-icones{
+    width: 1600px;
+    height: 1px;
+    background: #F5F6F7;
+    border: 1px;
+    margin-top: 4px;
+}
+.divisoria{
+    border: #EBEDEF;
+    margin-top: 36px;
+    margin-left: 36px;
+    border-left: 1px solid;
+    height: 845px;
+}
 
 .container-principal{
     border: 3px solid lightcoral;
+
     /* justify-content: space-around; */
 }
 .caixa1{
@@ -181,19 +197,23 @@ body{
 }
 
 .caixa2{
-    border: 3px solid lightgrey;
-    width: 590px;
-    height: 847px;
+    border: 3px solid lightseagreen;
+    width: 552px;
+    height: 913px;
+    display: flex;
+    justify-content: space-between;
+
 
 }
 .container-caixa2-vertical1-imagens{
     border: 3px solid lightcoral;
-    margin-top: 35px;
-    height: 100%;
+    margin-top: 36px;
+    height: 877px;
     justify-content: space-between;
     flex-direction: column;
     width: 240px;
 }
+
 .espiao-img{
     border-radius: 12px;
     width: 240px;
@@ -220,12 +240,46 @@ body{
     letter-spacing: -0.045em;
 
 }
+.greve{
+    margin-top: 50px;
+}
+.desfalcado{
+    height: 78px;
+}
 .news-vertical1-sub{
     font-size: 14px;
     color: #2F3134;
     width: 217px;
     height: 43px;
 
+}
+.blanche{
+    width: 217px;
+    height: 21px;
+
+}
+.angel{
+    width: 240px;
+    height: 63px;
+}
+.lota{
+    width: 240px;
+    height: 26px;
+
+}
+.verdades{
+    margin-top: 23px;
+}
+.gabriel{
+    width: 217px;
+    height: 21px; 
+    margin-top: 9px;
+}
+.lota-img{
+    margin-top: 50px;
+}
+.aliados{
+    margin-top: 8px;
 }
 
 
