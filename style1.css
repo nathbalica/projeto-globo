@@ -1,0 +1,170 @@
+a {
+  text-decoration: none
+}
+
+body {
+  font-family: 'Encode Sans', sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.container .box-cell.box1 {
+  text-align: justify;
+}
+
+.container .box-cell.box2 {
+  text-align: justify;
+}
+
+.flex {
+  display: flex;
+}
+
+.logo {
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* border: 1px solid lightblue; */
+  height: 20px;
+}
+
+.menu {
+  display: flex !important;
+  justify-content: center !important;
+  border: 1px solid rgb(238, 234, 234);
+}
+
+.g1 {
+  color: #C3170C;
+  font-size: 16px;
+  padding-right: 15px;
+}
+
+.globo {
+  color: #1E4B9B;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.valor {
+  color: #006766;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ge {
+  color: #07AA47;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cartola {
+  color: #E3662B;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.globoplay {
+  color: #FB0735;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dropz {
+  color: #FF75BB;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.gshow {
+  color: #EC7D00;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.quem {
+  color: #323333;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.receitas {
+  color: #A81D83;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.flex-child {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.flex-child2 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.flex-child3 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.color-red {
+  color: red;
+}
+
+.color-green {
+  color: green;
+}
+
+.color-orange {
+  color: orange;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.font-7 {
+  font-size: 7px;
+}
+
+.img-page {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.img-page2 {
+  width: 160px;
+  border-radius: 10px;
+}
+
+.line-vertical {
+  border-left: 1px solid rgb(238, 234, 234);
+  box-sizing: border-box;
+  margin-right: 10px;
+}

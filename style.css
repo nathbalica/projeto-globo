@@ -2,14 +2,14 @@
 a {
     text-decoration:none
 }
+
 body{
     font-family: 'Encode Sans', sans-serif;
+    
 }
-
-.container{
-    margin-left: 140px;
-    margin-right: 195px;
-	border: 1px solid #ccc;
+.all{
+    border: 3px solid lightgreen;
+    margin: auto;
 }
 
 .flex{
@@ -19,17 +19,18 @@ body{
 .logo{
     justify-content: center;
     margin-top: 22px;
-    /* background: lightcoral; */
-    border: 1px solid lightblue;
+    align-items: center;
+    width: 1250px;
+    border: 3px solid lightblue;
 }
 
 .container-icones{
 
-    margin-left: 140px;
-    margin-right: 195px;
-    justify-content: space-around;
-	border: 1px solid #ccc;
+    width: 1250px;
+    justify-content: space-between;
+	border: 3px solid #ccc;
     margin-top: 22px;
+    align-items: center;
     /* background-color: lightgreen; */
 
 }
@@ -76,92 +77,158 @@ body{
 
 .container-principal{
     border: 3px solid lightcoral;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .caixa1{
-    border: 3px solid lightgrey;
+    border: 3px solid lightcyan;
     color: #C4160C;
     margin-top: 34px;
-    margin-left: 151px;
-    width: 624px;
-    height: 930px;
+    width: 660px;
+    height: 847px;
     
 }
 .vacinados-texto{
     font-size: 52px;
     width: 624px;
     height: 201px;
-    margin-top: auto;    
-    
+    color: 
+    #C4160C;
+
 }
 .ministros-texto1{
     color: #303134;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
+    width: 622px;
+    height: 25px; 
 }
 .ministros-texto2{
     color: #303134;
+    font-weight: 500;
     font-size: 18px;
-    line-height: 7px;
-    
+    width: 622px;
+    height: 25px; 
+    margin-top: 7px;
 }
 
 .container-caixa1-horizontal-imagens{
     border: 3px solid lightgrey;
     margin-top: 51px;
-    width: 627px;
-    height: 277px;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    width: 627px
+
 }
-.alem-presidente{
-    /* border: 3px solid lightgrey; */
+
+.alem-presidente-img{
     width: 193px;
-    height: 110px;
     border-radius: 12px;
-    margin-left: auto;
-    
 }
-.presidente-texto{
-    font-size: 14px;
-    color: #C4170C;
-    width: 193px;
-    height: 110px;
+
+.container-child1{
     margin-top: 11px;
-}
-.cpi-texto{
+    font-weight: 500;
     font-size: 14px;
-    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #c4170c;
+}
+
+.container-child2{
     color: #2F3134;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.045em;
     width: 192px;
     height: 84px;
-    margin-top: auto;
+    margin-top: 6px;
 }
-.evangelicos{
+.container-child3{
     color: #2F3134;
     font-size: 14px;
     width: 174px;
     height: 42.5px;
+    margin-top: 4.5px;
 }
+.container-caixa1-textos{
+    display: flex;
+    width: 627px;
+    justify-content: space-between;
+    margin-top: 62px;
+    
+}
+.container-textos-child1{
+    font-size: 14px;
+    font-weight: 500;
+    color: #C4170C; 
+    width: 192px;
+    height: 19px;
+  
+}
+.container-textos-child2{
+    font-size: 20px;
+    color: #2F3134;
+    width: 192px;
+    height: 84px;
+    font-weight: bold;
+ 
+}
+.container-textos-child3{
+    font-size: 14px;
+    color: #2F3134;
+    width: 174px;
+    height: 42.5px;
+}
+
 .caixa2{
     border: 3px solid lightgrey;
-    width: 552px;
-    height: 930px;
-    margin-top: 34px;
-    margin-right: 195px;
+    width: 590px;
+    height: 847px;
+
 }
-/* .caixas{
-    margin-left: 151px;
-    margin-right: 825px;
-} */
-/* .caixa-vacinados{
-    color: #C4160C;
-    width: 624px;
-    height: 201px;
-    margin-top: 36px;
-    font-size: 52px;
-    border: 5px solid #ccc;
-} */
+.container-caixa2-vertical1-imagens{
+    border: 3px solid lightcoral;
+    margin-top: 35px;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 240px;
+}
+.espiao-img{
+    border-radius: 12px;
+    width: 240px;
+    height: 128px;
+}
+
+.news-vertical1-green{
+    font-size: 14px;
+    font-weight: 500;
+    color: #16AE54;
+    width: 240px;
+    height: 19px;
+    margin-top: 11px;
+    letter-spacing: -0.02em;
+
+}
+.news-vertical1-negrito{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2F3134;
+    width: 240px;
+    height: 84px;
+    margin-top: 6px;
+    letter-spacing: -0.045em;
+
+}
+.news-vertical1-sub{
+    font-size: 14px;
+    color: #2F3134;
+    width: 217px;
+    height: 43px;
+
+}
+
+
 
 
 
