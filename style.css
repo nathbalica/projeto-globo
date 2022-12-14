@@ -1,3 +1,6 @@
+.flex{
+    display: flex;
+}
 
 a {
     text-decoration:none
@@ -7,96 +10,138 @@ body{
     font-family: 'Encode Sans', sans-serif;
     
 }
-.all{
-    border: 3px solid lightgreen;
-    margin: auto;
-}
-
-.flex{
-    display: flex;
-}
 
 .logo{
     justify-content: center;
     margin-top: 22px;
     align-items: center;
     width: 1250px;
-    border: 3px solid lightblue;
 }
 
 .container-icones{
 
     width: 1250px;
     justify-content: space-between;
-	border: 3px solid #ccc;
     margin-top: 22px;
     align-items: center;
     height: 40px;
-    /* background-color: lightgreen; */
-
 }
+
 .g1{
-    color: #C3170C;
+    color: #b6291f;
     font-size: 19px;
+}
+.g1:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
 }
 .globo{
     color: #1E4B9B;
     font-size: 19px;
 }
+.globo:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
+}
 .valor{
     color: #006766;
     font-size: 19px;
+}
+.valor:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
 }
 .ge{
     color: #07AA47;
     font-size: 19px;
 }
+.ge:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
+}
 .cartola{
     color: #E3662B;
     font-size: 19px;
+}
+.cartola:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
 }
 .globoplay{
     color: #FB0735;
     font-size: 19px;
 }
+.globoplay:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
+}
 .dropz{
     color: #FF75BB;
     font-size: 19px;
+}
+.dropz:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
 }
 .gshow{
     color: #EC7D00;
     font-size: 19px;
 }
+.gshow:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
+}
 .quem{
     color: #323333;
     font-size: 19px;
+}
+.quem:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
 }
 .receitas{
     color: #A81D83;
     font-size: 19px;
 }
+.receitas:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
 .borda-icones{
     width: 1600px;
-    height: 1px;
-    background: #F5F6F7;
-    border: 1px;
+    border: 1px #F5F6F7;
     margin-top: 4px;
 }
+
 .divisoria{
-    border: #EBEDEF;
     margin-top: 36px;
-    margin-left: 36px;
-    border-left: 1px solid;
+    margin-right: 35px;
+    border: 1px #E5E5E5;;
     height: 845px;
 }
 
-.container-principal{
-    border: 3px solid lightcoral;
-
-    /* justify-content: space-around; */
+.borda-depois-vacinados{
+    width: 624px;
+    border: 1px #E5E5E5;
+    margin-top: 25px;
+    margin-left: 0px;
 }
-.caixa1{
-    border: 3px solid lightcyan;
+.sabatina{
+    margin-top: 36px;
+}
+.news-left{
+
     color: #C4160C;
     margin-top: 34px;
     width: 660px;
@@ -107,11 +152,15 @@ body{
     font-size: 52px;
     width: 624px;
     height: 201px;
-    color: 
-    #C4160C;
+    color: #C4160C;
 
 }
-.ministros-texto1{
+.vacinados-texto:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.6;
+}
+.ministros-texto{
     color: #303134;
     font-weight: 500;
     font-size: 18px;
@@ -119,7 +168,12 @@ body{
     width: 622px;
     height: 25px; 
 }
-.ministros-texto2{
+.ministros-texto:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.6;
+}
+.bandeiras-texto{
     color: #303134;
     font-weight: 500;
     font-size: 18px;
@@ -127,22 +181,29 @@ body{
     height: 25px; 
     margin-top: 7px;
 }
+.bandeiras-texto:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.6;
+}
 
-.container-caixa1-horizontal-imagens{
-    border: 3px solid lightgrey;
+
+.container-news-left-images{
     margin-top: 51px;
     justify-content: space-between;
     width: 627px
 
 }
 
-.alem-presidente-img{
+.news-left-img{
     width: 193px;
     border-radius: 12px;
 }
 
-.container-child1{
+.sub-red{
     margin-top: 11px;
+    width: 192px;
+    height: 19px;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
@@ -150,7 +211,8 @@ body{
     color: #c4170c;
 }
 
-.container-child2{
+
+.sub-bold{
     color: #2F3134;
     font-size: 20px;
     font-weight: bold;
@@ -158,46 +220,36 @@ body{
     width: 192px;
     height: 84px;
     margin-top: 6px;
+
 }
-.container-child3{
+.sub-bold:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.6;
+}
+.sub-normal{
     color: #2F3134;
     font-size: 14px;
     width: 174px;
     height: 42.5px;
     margin-top: 4.5px;
+    letter-spacing: -0.048em;
 }
-.container-caixa1-textos{
-    display: flex;
-    width: 627px;
-    justify-content: space-between;
-    margin-top: 62px;
-    
-}
-.container-textos-child1{
-    font-size: 14px;
-    font-weight: 500;
-    color: #C4170C; 
-    width: 192px;
-    height: 19px;
-  
-}
-.container-textos-child2{
-    font-size: 20px;
-    color: #2F3134;
-    width: 192px;
-    height: 84px;
-    font-weight: bold;
- 
-}
-.container-textos-child3{
-    font-size: 14px;
-    color: #2F3134;
-    width: 174px;
-    height: 42.5px;
+.sub-normal:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.6;
 }
 
-.caixa2{
-    border: 3px solid lightseagreen;
+.container-news-left-texts{
+    width: 627px;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+
+.news-right{
+
     width: 552px;
     height: 913px;
     display: flex;
@@ -205,8 +257,8 @@ body{
 
 
 }
-.container-caixa2-vertical1-imagens{
-    border: 3px solid lightcoral;
+.news-right-imagens{
+
     margin-top: 36px;
     height: 877px;
     justify-content: space-between;
@@ -214,13 +266,24 @@ body{
     width: 240px;
 }
 
-.espiao-img{
+.news-right-img{
     border-radius: 12px;
     width: 240px;
     height: 128px;
 }
 
-.news-vertical1-green{
+.greve-img{
+    margin-top: 50px;
+}
+.verdades-img{
+    margin-top: 23px;
+}
+
+.lota-img{
+    margin-top: 50px;
+}
+
+.sub-green{
     font-size: 14px;
     font-weight: 500;
     color: #16AE54;
@@ -230,7 +293,7 @@ body{
     letter-spacing: -0.02em;
 
 }
-.news-vertical1-negrito{
+.sub-bold-right{
     font-size: 20px;
     font-weight: bold;
     color: #2F3134;
@@ -240,23 +303,29 @@ body{
     letter-spacing: -0.045em;
 
 }
-.greve{
-    margin-top: 50px;
+.sub-bold-right:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.6;
 }
-.desfalcado{
-    height: 78px;
-}
-.news-vertical1-sub{
+.sub-normal-right{
     font-size: 14px;
     color: #2F3134;
     width: 217px;
     height: 43px;
 
 }
+.sub-normal-right:hover{
+    background-color: #f2f2f2; 
+    transition: 0.5s;
+    opacity: 0.6;
+}
+.desfalcado{
+    height: 78px;
+}
 .blanche{
     width: 217px;
     height: 21px;
-
 }
 .angel{
     width: 240px;
@@ -267,16 +336,10 @@ body{
     height: 26px;
 
 }
-.verdades{
-    margin-top: 23px;
-}
 .gabriel{
     width: 217px;
     height: 21px; 
     margin-top: 9px;
-}
-.lota-img{
-    margin-top: 50px;
 }
 .aliados{
     margin-top: 8px;
